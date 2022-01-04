@@ -196,18 +196,30 @@ a {
 
 
 
-
+._header_online_img{
+    position: absolute;
+    width: auto;
+    height: auto;
+    
+    
+}
 
 ._header_online_content {
     padding: 120px 0 20px 0;
     margin: auto;
     text-align: center;
+    z-index: 100;
+    
 }
 
+._header_online_content_txt{
+    position: relative;
+    
+}
 ._header_online_content_title1 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 72px;
     color: #2D1D61;
 }
@@ -217,9 +229,10 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     opacity: 80%;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 72px;
     color: #363049;
+    padding-top: 50px;
 }
 
 
