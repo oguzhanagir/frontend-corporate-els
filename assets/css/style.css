@@ -102,9 +102,11 @@ a {
 }
 
 ._toggler {
+    background-color: #7951F9 !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+
 
 ._nav_logo {
     width: 55px;
@@ -158,13 +160,7 @@ a {
     align-items: center;
 }
 
-._sign_in {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #494949 !important;
-}
+
 
 ._header_online_nav_btn {
     -webkit-transition: .2s all ease;
