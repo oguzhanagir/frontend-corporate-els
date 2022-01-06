@@ -12,7 +12,9 @@ body {
     margin: 0px auto;
     padding: 0px;
     background-color: var(--bg) !important;
-}
+    overflow-x: hidden; /*x ekseninde kaymayı engelledim*/
+    
+    }
 
 a:hover {
     text-decoration: none;
