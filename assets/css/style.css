@@ -280,3 +280,49 @@ a {
 ._header_online_play_btn:hover path {
     fill:#fff;
 }
+
+
+
+._feature_online_wrapper {
+    padding: 100px 0 50px 0;
+}
+
+
+
+
+
+._feature_online_content_wrap {
+    margin: 100px 0 20px 150px;
+    
+}
+
+._feature_online_content_img {
+    width: 70px;
+}
+
+._feature_online_content_txt {
+    margin: 40px 0 10px 0;
+}
+
+._feature_online_content_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--color2);
+    margin: 0 0 16px 0;
+}
+
+._feature_online_content_para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #363049;
+    max-width: 60%;
+}
+
+
+/*-----------------------------
+    Feature Online Section Ends
+------------------------------*/
