@@ -373,3 +373,49 @@ a {
 /*-----------------------------
     Count Online Section Ends
 ------------------------------*/
+
+
+/*-----------------------------
+    Count Online Section 2
+------------------------------*/
+
+._count_online_wrapper_2 {
+    padding-top: 200px;
+}
+
+._count_online_content_img_div {
+    width: 40%;
+    float: right;
+}
+._count_online_content_img{
+    padding-left: 150px;
+}
+
+
+._count_online_content_txt_2 {
+    text-align: center;
+}
+
+._count_online_content_title_2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 50px;
+    color: #2D1D61;
+}
+
+._count_online_content_para_2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #363049;
+    padding-top: 100px;
+}
+
+
+
+
+/*-----------------------------
+    Count Online Section Ends
+------------------------------*/
