@@ -272,7 +272,7 @@ a {
 }
 
 ._header_online_play_btn:hover {
-    background: #1ebfc1;
+    background: #bfabff;
 }
 ._header_online_play_btn path {
     transition:.2s all ease;
@@ -354,7 +354,7 @@ a {
 
 ._count_online_content_title {
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 28px;
     line-height: 50px;
     color: #2D1D61;
@@ -379,39 +379,20 @@ a {
     Count Online Section 2
 ------------------------------*/
 
-._count_online_wrapper_2 {
-    padding-top: 200px;
-}
 
 ._count_online_content_img_div {
     width: 40%;
-    float: right;
 }
+
 ._count_online_content_img{
     padding-left: 150px;
 }
 
 
-._count_online_content_txt_2 {
-    text-align: center;
+._count_online_content_img_div_2 {
+    width: 40%;
 }
 
-._count_online_content_title_2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 50px;
-    color: #2D1D61;
-}
-
-._count_online_content_para_2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
-    color: #363049;
-    padding-top: 100px;
-}
 
 
 
@@ -419,3 +400,87 @@ a {
 /*-----------------------------
     Count Online Section Ends
 ------------------------------*/
+
+
+
+
+/*-----------------------------
+    Footer Online Section 
+------------------------------*/
+
+._footer_online_wrapper {
+    padding: 280px 0 50px 0;
+    background-color: #E6DEFF;
+}
+
+._footer_online_logo {
+    width: 70px;
+}
+
+._footer_online_list {
+    list-style: none;
+}
+
+._footer_online_list_wrap {
+    margin: 26px 0 10px 0;
+}
+
+._footer_online_list_item {
+    margin: 20px 0;
+}
+._footer_online_content_2{
+    padding-right: 50px;
+}
+._footer_online_content{
+   padding-left: 100px;
+}
+
+._footer_online_content_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2E2E;
+}
+
+._footer_online_list_link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535353 !important;
+}
+
+._footer_online_social_ic {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+._footer_online_copyright {
+    padding: 80px 0 0 0;
+}
+
+._footer_online_copryright_txt {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #B0B5B4;
+}
+
+
+/*-----------------------------
+    Footer Online Section Ends
+------------------------------*/
+
