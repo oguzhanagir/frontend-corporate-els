@@ -11,7 +11,7 @@ html {
 body {
     margin: 0px auto;
     padding: 0px;
-    background-color: var(--bg) !important;
+    /* background-color: !important; */
     overflow-x: hidden; /*x ekseninde kaymayı engelledim*/
     
     }
@@ -87,8 +87,9 @@ a {
 ------------*/
 
 ._header_online_navbar {
-    background-color: transparent !important;
-    margin-top: 10px;
+    background-color:transparent !important;
+    margin:20px 0 20px 0 ;
+
 }
 
 ._logo_wrap {
@@ -198,8 +199,7 @@ a {
     position: absolute;
     width: 1550px;
     height: auto;
-    
-    
+
 }
 
 ._header_online_content {
@@ -212,6 +212,7 @@ a {
 
 ._header_online_content_txt{
     position: relative;
+    margin-top: 50px;
     
 }
 ._header_online_content_title1 {
@@ -345,11 +346,14 @@ a {
 ------------------------------*/
 
 ._count_online_wrapper {
-    padding-top: 200px;
+    padding:100px 0 100px 0;
+
 }
 
 ._count_online_content_txt {
     text-align: center;
+    /* background-color: #F0ECFF; */
+
 }
 
 ._count_online_content_title {
@@ -385,13 +389,18 @@ a {
 }
 
 ._count_online_content_img{
-    padding-left: 150px;
+    padding-left: 100px;
 }
 
 
 ._count_online_content_img_div_2 {
     width: 40%;
 }
+
+
+
+    
+   
 
 
 
@@ -483,4 +492,29 @@ a {
 /*-----------------------------
     Footer Online Section Ends
 ------------------------------*/
+
+
+._about_online_content_txt{
+   margin:250px 0 50px 0;
+}
+
+._about_online_content_title{
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #2D1D61;
+    margin-left: 500px;
+    
+    
+}
+._about_online_content_para{
+    margin-left: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #363049;
+    padding:50px 0 50px 0;
+}
+
 
