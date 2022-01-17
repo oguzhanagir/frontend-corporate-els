@@ -504,12 +504,21 @@ a {
     font-weight: 600;
     font-size: 28px;
     color: #2D1D61;
-    margin-left: 500px;
-    
+    margin-left: 50px;
     
 }
-._about_online_content_para{
+
+._about_online_content_title_2{
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #2D1D61;
     margin-left: 500px;
+}
+
+._about_online_content_para{
+    margin-left: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -562,7 +571,9 @@ a {
 /* Contact İnput */
 
 .contact-div{
-    margin-left: 200px;
+    margin-left: 505px;
+    margin-bottom: 170px;
+    
 }
 
 .wrap-input100 {
@@ -663,4 +674,17 @@ a {
   
   }
 
+
+  /*Google maps*/
+
+  .google-maps{
+
+    margin-left: 280px;
+      
+      
+     
+  }
+
   /* Contact End */
+
+
