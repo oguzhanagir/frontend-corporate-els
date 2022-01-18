@@ -1,4 +1,4 @@
-const nodemailer = import('nodemailer')
+const nodemailer = require('nodemailer')
 
 
 // function saveInfo(e) {
