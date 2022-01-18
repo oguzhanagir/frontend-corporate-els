@@ -28,11 +28,12 @@ let mailOptions = {
 
 }
 
-var btn = document.querySelector("#btn_contact");
+var btn = document.getElementById('btn_contact');
 
-btn.onclick= function(){
+btn.onclick = function(){
     transporter.sendMail(mailOptions,(err,data) =>{
         if(err) console.log(err)
         else console.log('Mail Başarılı Bir Şekilde Gönderildi.')
     })
+    
 }
