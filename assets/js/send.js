@@ -12,26 +12,23 @@ const nodemailer = require('nodemailer')
 //       return false;
 // }}
 
+let transporter = nodemailer.createTransport({
+    service:'gmail',
+    auth:{
+        user:'elsyazilimsendmail@gmail.com',
+        pass: 'cnzcfleblonnvgos'
+    }
+})
 
+let mailOptions = {
+    from: 'elsyazilimsendmail@gmail.com',
+    to: 'oguzhanagir1@gmail.com',
+    subject: 'ELS Yazılım Web Sitesi İletişim Formu',
+    text: 'deneme bir maildir els den gönderildi'
+
+}
 
 function sendMail() {
-
-    let transporter = nodemailer.createTransport({
-        service:'gmail',
-        auth:{
-            user:'elsyazilimsendmail@gmail.com',
-            pass: 'cnzcfleblonnvgos'
-        }
-    })
-    
-    let mailOptions = {
-        from: 'elsyazilimsendmail@gmail.com',
-        to: 'oguzhanagir1@gmail.com',
-        subject: 'ELS Yazılım Web Sitesi İletişim Formu',
-        text: 'deneme bir maildir els den gönderildi'
-    
-    }
-
     transporter.sendMail(mailOptions,(err,data) =>{
         if(err) console.log(err)
         else console.log('Mail Başarılı Bir Şekilde Gönderildi.')
