@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ELS Yazılım</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- BootStrap -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" crossorigin="anonymous">
     <!-- Font -->
@@ -25,7 +25,7 @@
         <div class="container-fluid">
             <div class="_logo_wrap">
                      <a class="navbar-brand _logo" href="#0">
-                    <img class="_nav_logo" src="assets/images/logo.svg" alt="Logo"></a>
+                    <img class="_nav_logo" src="/assets/images/logo.svg" alt="Logo"></a>
                     <a class="_nav_logo_text">ELS Yazılım</a>
             </div>
             <button class="navbar-toggler _toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,66 +73,66 @@
   </header>
 
  <!-- Contact İnput -->
-<section class="_count_online_wrapper">
+<section class="_count_online_wrapper" >
     <div class="container">
-        <div class="row">        
+        <div class="row" id="contact_row">        
             
-                <div class="_about_online_content_txt" id="contact-text">
+                <div class="contact-text" id="">
                     <h3 class="_about_online_content_title">İletişim Bilgileri</h3>
                     <p class="_about_online_content_para">Telefon Numarası</p>
                     <p class="_about_online_content_para">info@elsyazilim.com</p>
                     <p class="_about_online_content_para">Adres</p>
                 </div>
-                <div class="_about_online_content_txt">
+
+                <div class="contact-text-input" >
                     <h3 class="_about_online_content_title_2">Bizim ile İletişime Geçin</h3>
                     <!-- <p class="_about_online_content_para">Şirketimiz her müşteriye özenle yaklaşır.</p> -->
-                
-               
-                <div class="contact-div ">
-                    <div class="wrap-input100 " data-validate="Lütfen Adınızı ve Soyadınızı Giriniz.">
-                        <input class="input100" type="text" id="inputName" name="name" placeholder="Adınız ve Soyadınız">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-                            <i class="fas fa-user-friends" aria-hidden="true"></i>
-                        </span>
-                    </div>
-    
-                    <div class="wrap-input100 " data-validate="Lütfen Telefon Numaranızı Giriniz">
-                        <input class="input100" type="text" name="phone" id="inputPhone" placeholder="Telefon Numaranızı Giriniz.">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-                            <i class="fas fa-phone" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    
-                    <div class="wrap-input100 " data-validate="Lütfen E-Posta Adresini Giriniz">
-                        <input class="input100" type="text" name="email" id="inputEmail" placeholder="E-Posta Adresiniz">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                        </span>
-                    </div>
-    
-                    
-                    <div class="wrap-input100 " data-validate="Lütfen Mesajınızı Giriniz">
-                        <input class="input100" type="text" name="message" id="inputMessage" placeholder="Mesajınız">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-                            <i class="fas fa-inbox" aria-hidden="true"></i>
-                        </span>
-                    </div>
+            
+                    <div class="contact-div ">
+                        <div class="wrap-input100 " data-validate="Lütfen Adınızı ve Soyadınızı Giriniz.">
+                            <input class="input100" type="text" id="inputName" name="name" placeholder="Adınız ve Soyadınız">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fas fa-user-friends" aria-hidden="true"></i>
+                            </span>
+                        </div>
+        
+                        <div class="wrap-input100 " data-validate="Lütfen Telefon Numaranızı Giriniz">
+                            <input class="input100" type="text" name="phone" id="inputPhone" placeholder="Telefon Numaranızı Giriniz.">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="wrap-input100 " data-validate="Lütfen E-Posta Adresini Giriniz">
+                            <input class="input100" type="text" name="email" id="inputEmail" placeholder="E-Posta Adresiniz">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                        </div>
+        
+                        
+                        <div class="wrap-input100 " data-validate="Lütfen Mesajınızı Giriniz">
+                            <input class="input100" type="text" name="message" id="inputMessage" placeholder="Mesajınız">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fas fa-inbox" aria-hidden="true"></i>
+                            </span>
+                        </div>
 
-                    <div class="_header_online_content_btn_wrap_2">
-                        <button class="_header_online_play_btn_2" id="btn_contact" onclick="sendMail()" >Gönder</button>
-                    </div>
+                        <div class="_header_online_content_btn_wrap_2">
+                            <button class="_header_online_play_btn_2" id="btn_contact" onclick="sendMail()" >Gönder</button>
+                        </div>
 
-                    
-                </div>
+                        
+                    </div>
             </div>
 
                 <div class="google-maps">
-                    <div style="width: 80%">
-                        <iframe width="750" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Atat%C3%BCrk%20Blv.%20No:129,%20Altay,%2045400%20Turgutlu/Manisa+(ELS%20Yaz%C4%B1l%C4%B1m)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    <div class="google-maps-div" style="width: 80%">
+                        <iframe width="850" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Atat%C3%BCrk%20Blv.%20No:129,%20Altay,%2045400%20Turgutlu/Manisa+(ELS%20Yaz%C4%B1l%C4%B1m)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                             <a href="https://www.gps.ie/sport-gps/">ELS Yazılım</a>
                         </iframe>
                     </div>
