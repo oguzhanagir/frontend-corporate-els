@@ -1,4 +1,4 @@
-const nodemailer = require('nodemailer')
+// const nodemailer = require('nodemailer')
 
 
 // function saveInfo(e) {
@@ -12,28 +12,28 @@ const nodemailer = require('nodemailer')
 //       return false;
 // }}
 
-let transporter = nodemailer.createTransport({
-    service:'gmail',
-    auth:{
-        user:'elsyazilimsendmail@gmail.com',
-        pass: 'cnzcfleblonnvgos'
-    }
-})
+// let transporter = nodemailer.createTransport({
+//     service:'gmail',
+//     auth:{
+//         user:'elsyazilimsendmail@gmail.com',
+//         pass: 'cnzcfleblonnvgos'
+//     }
+// })
 
-let mailOptions = {
-    from: 'elsyazilimsendmail@gmail.com',
-    to: 'oguzhanagir1@gmail.com',
-    subject: 'ELS Yazılım Web Sitesi İletişim Formu',
-    text: 'deneme bir maildir els den gönderildi'
+// let mailOptions = {
+//     from: 'elsyazilimsendmail@gmail.com',
+//     to: 'oguzhanagir1@gmail.com',
+//     subject: 'ELS Yazılım Web Sitesi İletişim Formu',
+//     text: 'deneme bir maildir els den gönderildi'
 
-}
+// }
 
-function sendMail() {
-    transporter.sendMail(mailOptions,(err,data) =>{
-        if(err) console.log(err)
-        else console.log('Mail Başarılı Bir Şekilde Gönderildi.')
-    })
-}
+// function sendMail() {
+//     transporter.sendMail(mailOptions,(err,data) =>{
+//         if(err) console.log(err)
+//         else console.log('Mail Başarılı Bir Şekilde Gönderildi.')
+//     })
+// }
 
 function smtpMail() {
 	Email.send({
