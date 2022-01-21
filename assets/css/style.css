@@ -637,8 +637,9 @@ a {
 @media screen and (max-width:700px){
 
     ._count_online_wrapper {
-        padding:100px 0 100px 0;
+        padding: 0px 0 100px 0;
         background-color: #F9F7FF;
+        
     
     }
     
@@ -1369,6 +1370,30 @@ a {
 
   @media screen and (max-width:700px){
     
+    .google-maps{
+        background-color: #0d081b;
+        width: 84%;
+        height: 85%;
+        border-radius: 50px;
+        margin: auto;
+        margin-bottom: 80px;
+        margin-top: 50px;
+       
+      }
+      .google-maps-div{
+        margin: 20px 20px 20px 20px;
+        width: 80%;
+    
+      }
+
+      iframe{
+          width: 265px;
+          height: 350px;
+          border-radius: 30px;
+          
+          
+      }
+
 }
 
 
