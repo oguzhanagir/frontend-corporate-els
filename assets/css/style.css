@@ -122,12 +122,13 @@ a {
     width: 55px;
     height: 55px;
     display: inline-block;
+    
 }
 ._nav_logo_text{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 45px;
+    margin-left: 20px;
     line-height: 24px;
     color: #2D1D61 !important;
     -webkit-transition: .2s all ease;
@@ -978,23 +979,16 @@ a {
     
  }
 .services-section-card-title{
-    background-color: #aaa4b9;
-     margin-bottom: 20px;
+    background-color: #c4c2c7;
+    margin-bottom: 20px;
     border-radius: 30px;
 }
 .services-section-card-svg{
     width: 130px;
     height: 130px;
     margin: auto;
-    padding:15px 0 15px 0;
-    
-    
-    
-    
-    
+    padding:15px 0 15px 0;    
 }
-
-
 
 .services-section-card-subtitle{
     color: rgb(24, 22, 22);
@@ -1002,7 +996,7 @@ a {
     font-weight: 500;
     font-size: 25px;
     padding: 20px 0 20px 0;
-    background-color: #8a82a3;
+    background-color: #c8c5d1;
     border-radius: 30px;
     
    
@@ -1012,12 +1006,11 @@ a {
 .services-section-card-txt{
     color: #0d081b;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
-    opacity: 90%;
     line-height: 30px;
-    padding: 80px 0 30px 0;
-    background-color: rgb(165, 162, 179);
+    padding: 80px 10px 30px 10px;
+    background-color: #c8c5d1;
     width: 350px;
     height: 400px;
     border-radius: 30px;
@@ -1114,6 +1107,16 @@ a {
 }
 .contact-text-input{
     margin-top: 100px;
+    margin-left: 350px;
+    
+}
+.contact-title2{
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #2D1D61;
+  
 }
 
 .wrap-input100 {
